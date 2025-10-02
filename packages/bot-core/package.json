@@ -1,0 +1,16 @@
+﻿{
+  "name": "@aeon/bot-core",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": "./dist/index.js",
+    "./prompts": "./dist/prompts.js",
+    "./retrieval": "./dist/retrieval.js",
+    "./together": "./dist/together.js"
+  },
+  "scripts": { "build": "tsc -p tsconfig.json" },
+  "dependencies": { "node-fetch": "^3.3.2" },
+  "devDependencies": { "typescript": "^5.4.5" }
+}

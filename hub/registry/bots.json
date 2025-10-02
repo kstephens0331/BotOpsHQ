@@ -1,0 +1,22 @@
+﻿[
+  { "id":"hvac-bot",      "name":"HVAC Booking Bot",      "pkg":"@aeon/hvac-bot-api",      "defaultPort":8787, "kbTemplate":"templates/kb/hvac.json" },
+  { "id":"plumbing-bot",  "name":"Plumbing Booking Bot",  "pkg":"@aeon/plumbing-bot-api",  "defaultPort":8791, "kbTemplate":"templates/kb/plumbing.json" },
+  { "id":"electrician-bot","name":"Electrician Bot",       "pkg":"@aeon/electrician-bot-api","defaultPort":8792, "kbTemplate":"templates/kb/electrician.json" },
+  { "id":"roofing-bot",   "name":"Roofing Bot",           "pkg":"@aeon/roofing-bot-api",   "defaultPort":8793, "kbTemplate":"templates/kb/roofing.json" },
+  { "id":"pest-bot",      "name":"Pest Control Bot",      "pkg":"@aeon/pest-bot-api",      "defaultPort":8794, "kbTemplate":"templates/kb/pest.json" },
+  { "id":"dentist-bot",   "name":"Dentist Bot",           "pkg":"@aeon/dentist-bot-api",   "defaultPort":8795, "kbTemplate":"templates/kb/dentist.json" },
+  { "id":"ortho-bot",     "name":"Orthodontist Bot",      "pkg":"@aeon/ortho-bot-api",     "defaultPort":8796, "kbTemplate":"templates/kb/ortho.json" },
+  { "id":"chiro-bot",     "name":"Chiropractor Bot",      "pkg":"@aeon/chiro-bot-api",     "defaultPort":8797, "kbTemplate":"templates/kb/chiro.json" },
+  { "id":"pt-bot",        "name":"Physical Therapy Bot",  "pkg":"@aeon/pt-bot-api",        "defaultPort":8798, "kbTemplate":"templates/kb/pt.json" },
+  { "id":"medspa-bot",    "name":"Med Spa Bot",           "pkg":"@aeon/medspa-bot-api",    "defaultPort":8799, "kbTemplate":"templates/kb/medspa.json" },
+  { "id":"auto-bot",      "name":"Auto Repair Bot",        "pkg":"@aeon/auto-bot-api",     "defaultPort":8800, "kbTemplate":"templates/kb/auto.json" },
+  { "id":"tire-bot",      "name":"Tire Shop Bot",         "pkg":"@aeon/tire-bot-api",      "defaultPort":8801, "kbTemplate":"templates/kb/tire.json" },
+  { "id":"detail-bot",    "name":"Detailing Bot",         "pkg":"@aeon/detail-bot-api",    "defaultPort":8802, "kbTemplate":"templates/kb/detail.json" },
+  { "id":"realtor-bot",   "name":"Realtor Bot",           "pkg":"@aeon/realtor-bot-api",   "defaultPort":8803, "kbTemplate":"templates/kb/realtor.json" },
+  { "id":"pm-bot",        "name":"Property Manager Bot",  "pkg":"@aeon/pm-bot-api",        "defaultPort":8804, "kbTemplate":"templates/kb/pm.json" },
+  { "id":"vacation-bot",  "name":"Vacation Rental Bot",   "pkg":"@aeon/vacation-bot-api",  "defaultPort":8805, "kbTemplate":"templates/kb/vacation.json" },
+  { "id":"tutor-bot",     "name":"Tutor/Test Prep Bot",   "pkg":"@aeon/tutor-bot-api",     "defaultPort":8806, "kbTemplate":"templates/kb/tutor.json" },
+  { "id":"salon-bot",     "name":"Salon/Barber Bot",      "pkg":"@aeon/salon-bot-api",     "defaultPort":8807, "kbTemplate":"templates/kb/salon.json" },
+  { "id":"spa-bot",       "name":"Spa/Massage Bot",       "pkg":"@aeon/spa-bot-api",       "defaultPort":8808, "kbTemplate":"templates/kb/spa.json" },
+  { "id":"vet-bot",       "name":"Vet/Pet Groomer Bot",   "pkg":"@aeon/vet-bot-api",       "defaultPort":8809, "kbTemplate":"templates/kb/vet.json" }
+]

@@ -1,0 +1,52 @@
+root: C:\Users\usmc3\OneDrive\Documents\Stephens Code Programs\botopshq
+model: meta-llama/Llama-3.3-70B-Instruct-Turbo
+togetherApiKeyRef: TOGETHER_API_KEY
+allowWriteOutsideRoot: false
+shellAllowlist:
+  - pnpm
+  - npm
+  - npx
+  - node
+  - git
+  - gh
+  - vercel
+  - supabase
+  - railway
+  - tsc
+  - eslint
+  - prettier
+  - vitest
+  - pytest
+  - go
+  - cargo
+  - pip
+  - uv
+  - bun
+  - yarn
+  - ls
+  - dir
+  - find
+routing:
+  planModel: meta-llama/Llama-3.3-70B-Instruct-Turbo
+  codeModel: deepseek-ai/DeepSeek-V3
+  bigPlanModel: meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo
+  thresholds:
+    totalBytes: 104857600
+    totalFiles: 3000
+planner:
+  maxRounds: 4
+  perFileChars: 16000
+  snapshotMaxBytes: 1600000
+staging:
+  enabled: true
+  dir: .af/staging
+  branchPrefix: af/stage/
+testing:
+  command: pnpm test
+  typecheck: pnpm -w tsc --noEmit
+  lint: pnpm -w eslint .
+deploy:
+  github: true
+  vercel: true
+  supabase: true
+  railway: true
